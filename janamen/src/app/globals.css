@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: white;
+}
+
+.main_div_container {
+  @apply h-full bg-body-bg bg-cover bg-center relative;
+}
+
+
+
+.full-page-container {
+  @apply h-full w-full flex items-center justify-center relative;
+}
+
+.neon-text {
+  position: relative;
+  color: transparent;
+  -webkit-text-stroke: 2px #F58712;
+  text-shadow:
+    0 0 10px #F58712,
+    0 0 20px #F58712,
+    0 0 30px #F58712,
+    0 0 40px #F58712,
+    0 0 50px #F58712,
+    0 0 60px #F58712,
+    0 0 70px #F58712;
+}
+
+.clip-path-button_dark {
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+}

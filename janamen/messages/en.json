@@ -1,0 +1,13 @@
+{
+    "header": {
+        "biography": "Biography",
+        "globus": {
+            "english": "English",
+            "kazakh": "Kazakh",
+            "russian": "Russian"
+        }
+    },
+    "Index": {
+        "title": "Hello world!"
+    }
+}
